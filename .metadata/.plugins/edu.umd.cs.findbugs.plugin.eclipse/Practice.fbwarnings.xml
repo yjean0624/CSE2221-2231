@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="28" timestamp="1537285160223" analysisTimestamp="1537285159736" release="">
+  <Project projectName="Practice">
+    <Jar>C:\Users\yjean\Documents\workspace\Practice\bin\Abc.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\Practice\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\Practice\src</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\Practice\test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="15" last="15" removedByChange="true">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Method classname="Abc" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Abc" start="24" end="25" startBytecode="0" endBytecode="3" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Method>
+    <LocalVariable name="temp" register="1" pc="5" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Abc" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <SourceLine classname="Abc" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="temp"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="16">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Method classname="Abc" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="Abc" start="20" end="21" startBytecode="0" endBytecode="64" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader"/>
+    </Method>
+    <SourceLine classname="Abc" start="21" end="21" startBytecode="11" endBytecode="11" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <SourceLine classname="Abc" start="21" end="21" startBytecode="11" endBytecode="11" sourcefile="Abc.java" sourcepath="Abc.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="14" last="14" removedByChange="true">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Method classname="Abc" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Abc" start="29" end="33" startBytecode="0" endBytecode="13" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Method>
+    <Type descriptor="Lcomponents/queue/Queue1L;" role="TYPE_FOUND" typeParameters="&lt;java.lang.Integer&gt;">
+      <SourceLine classname="components.queue.Queue1L" start="1" end="106" sourcefile="SourceFile" sourcepath="components/queue/SourceFile"/>
+    </Type>
+    <Type descriptor="Lcomponents/stack/Stack1L;" role="TYPE_EXPECTED" typeParameters="&lt;java.lang.Integer&gt;">
+      <SourceLine classname="components.stack.Stack1L" start="1" end="176" sourcefile="SourceFile" sourcepath="components/stack/SourceFile"/>
+    </Type>
+    <LocalVariable name="q" register="2" pc="20" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="s" register="1" pc="20" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.stack.StackSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.stack.StackSecondary" start="28" end="50" startBytecode="0" endBytecode="270" sourcefile="SourceFile" sourcepath="components/stack/SourceFile"/>
+    </Method>
+    <SourceLine classname="Abc" start="32" end="32" startBytecode="21" endBytecode="21" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <SourceLine classname="Abc" start="32" end="32" startBytecode="21" endBytecode="21" sourcefile="Abc.java" sourcepath="Abc.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="16" last="23" removedByChange="true">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Method classname="Abc" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Abc" start="34" end="72" startBytecode="0" endBytecode="390" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Method>
+    <SourceLine classname="Abc" start="55" end="55" startBytecode="69" endBytecode="69" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <LocalVariable name="valid" register="5" pc="69" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Abc" start="38" end="38" startBytecode="10" endBytecode="10" sourcefile="Abc.java" sourcepath="Abc.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="16" last="17" removedByChange="true">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Method classname="Abc" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Abc" start="34" end="65" startBytecode="0" endBytecode="332" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Method>
+    <SourceLine classname="Abc" start="63" end="63" startBytecode="109" endBytecode="109" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <LocalVariable name="valid" register="5" pc="109" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Abc" start="38" end="38" startBytecode="10" endBytecode="10" sourcefile="Abc.java" sourcepath="Abc.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="16" last="27" removedByChange="true">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Field classname="Abc" name="cin" signature="Ljava/io/BufferedReader;" isStatic="true">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Field>
+    <SourceLine classname="Abc" start="21" end="21" startBytecode="17" endBytecode="17" sourcefile="Abc.java" sourcepath="Abc.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE" first="17" last="17" removedByChange="true">
+    <Class classname="Abc">
+      <SourceLine classname="Abc" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Class>
+    <Method classname="Abc" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Abc" start="34" end="65" startBytecode="0" endBytecode="332" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    </Method>
+    <String value="valid == true"/>
+    <SourceLine classname="Abc" start="65" end="65" startBytecode="112" endBytecode="112" sourcefile="Abc.java" sourcepath="Abc.java" role="SOURCE_UNREACHABLE_CODE"/>
+    <SourceLine classname="Abc" start="63" end="63" startBytecode="109" endBytecode="109" sourcefile="Abc.java" sourcepath="Abc.java"/>
+    <SourceLine classname="Abc" start="63" end="63" startBytecode="109" endBytecode="109" sourcefile="Abc.java" sourcepath="Abc.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="2">
+    <Class classname="ProgramWithIO">
+      <SourceLine classname="ProgramWithIO" sourcefile="ProgramWithIO.java" sourcepath="ProgramWithIO.java"/>
+    </Class>
+    <Method classname="ProgramWithIO" name="giveRaise" signature="(Ljava/util/Map;CI)V" isStatic="true">
+      <SourceLine classname="ProgramWithIO" start="89" end="101" startBytecode="0" endBytecode="377" sourcefile="ProgramWithIO.java" sourcepath="ProgramWithIO.java"/>
+    </Method>
+    <SourceLine classname="ProgramWithIO" start="98" end="98" startBytecode="102" endBytecode="102" sourcefile="ProgramWithIO.java" sourcepath="ProgramWithIO.java"/>
+    <SourceLine classname="ProgramWithIO" start="98" end="98" startBytecode="102" endBytecode="102" sourcefile="ProgramWithIO.java" sourcepath="ProgramWithIO.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="9">
+    <Class classname="abc">
+      <SourceLine classname="abc" start="17" end="31" sourcefile="abc.java" sourcepath="abc.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 18 Sep 2018 11:39:19 -0400" total_classes="1" referenced_classes="14" total_bugs="3" total_size="8" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="1.36" clock_seconds="0.49" peak_mbytes="560.53" alloc_mbytes="1024.00" gc_seconds="0.00" priority_2="2" priority_1="1">
+    <PackageStats package="" total_bugs="3" total_types="3" total_size="8" priority_2="2" priority_1="1">
+      <ClassStats class="Abc" sourceFile="Abc.java" interface="false" size="8" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="129" invocations="2" avgMicrosecondsPerInvocation="64899" maxMicrosecondsPerInvocation="118863" standardDeviationMircosecondsPerInvocation="53964"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="123" invocations="322" avgMicrosecondsPerInvocation="382" maxMicrosecondsPerInvocation="5828" standardDeviationMircosecondsPerInvocation="670"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="90" invocations="322" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="9348" standardDeviationMircosecondsPerInvocation="531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="14" avgMicrosecondsPerInvocation="1390" maxMicrosecondsPerInvocation="7597" standardDeviationMircosecondsPerInvocation="1997"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1510009388353" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1510009388353" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1511730778440" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1511732250067" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1511732264096" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1511732644406" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1511732778185" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1511733167930" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1511733172914" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1511747536369" release="" codeSize="70" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1513038370104" release="" codeSize="62" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1513038405006" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1513039383276" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1513039401299" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1513039448401" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1513040640562" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1537243623420" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1537243650576" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1537243736669" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1537243822017" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1537243839945" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1537244667389" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1537245543596" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1537282744303" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1537282816749" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1537282958538" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1537282982443" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1537283046877" release="" codeSize="42" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;evenSumRange&apos; to &apos;KrusalsMSF&apos;&#x0D;&#x0A;- Original project: &apos;KruskalsMSF&apos;&#x0D;&#x0A;- Original element: &apos;evenSumRange&apos;&#x0D;&#x0A;- Renamed element: &apos;KrusalsMSF&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;evenSumRange&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{evenSumRange.java[evenSumRange" matchStrategy="1" name="KrusalsMSF" qualified="false" references="true" similarDeclarations="false" stamp="1555189471251" textual="false" version="1.0"/>
+</session>

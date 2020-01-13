@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="9" timestamp="1509950481917" analysisTimestamp="1509950481463" release="">
+  <Project projectName="SetOnBST">
+    <Jar>C:\Users\yjean\Documents\workspace\SetOnBST\bin\Set3a.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\SetOnBST\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\SetOnBST\src</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\SetOnBST\test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 6 Nov 2017 01:41:21 -0500" total_classes="1" referenced_classes="24" total_bugs="0" total_size="119" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="1.48" clock_seconds="0.45" peak_mbytes="612.62" alloc_mbytes="1024.00" gc_seconds="0.07">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="119">
+      <ClassStats class="Set3a" sourceFile="Set3a.java" interface="false" size="119" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="132" invocations="2" avgMicrosecondsPerInvocation="66472" maxMicrosecondsPerInvocation="125871" standardDeviationMircosecondsPerInvocation="59399"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="71" invocations="355" avgMicrosecondsPerInvocation="200" maxMicrosecondsPerInvocation="3899" standardDeviationMircosecondsPerInvocation="398"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="42" invocations="87" avgMicrosecondsPerInvocation="488" maxMicrosecondsPerInvocation="33455" standardDeviationMircosecondsPerInvocation="3556"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="30" invocations="357" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="434" standardDeviationMircosecondsPerInvocation="49"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="12" invocations="22" avgMicrosecondsPerInvocation="554" maxMicrosecondsPerInvocation="10155" standardDeviationMircosecondsPerInvocation="2126"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1509949980466" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1509949980466" release="" codeSize="118" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1509950036533" release="" codeSize="118" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1509950057331" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1509950071285" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1509950107116" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1509950361335" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1509950445092" release="" codeSize="120" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1509950462083" release="" codeSize="120" numClasses="1"/>
+  </History>
+</BugCollection>

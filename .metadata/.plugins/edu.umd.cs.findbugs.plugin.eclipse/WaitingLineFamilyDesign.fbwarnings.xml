@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1550450541352" analysisTimestamp="1550450540727" release="">
+  <Project projectName="WaitingLineFamilyDesign">
+    <Jar>C:\Users\yjean\Documents\workspace\WaitingLineFamilyDesign\bin</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\WaitingLineFamilyDesign\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\WaitingLineFamilyDesign\src</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\WaitingLineFamilyDesign\test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 17 Feb 2019 19:39:22 -0500" total_classes="5" referenced_classes="22" total_bugs="0" total_size="119" num_packages="2" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="2.02" clock_seconds="0.63" peak_mbytes="454.88" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="components.queue" total_bugs="0" total_types="2" total_size="11">
+      <ClassStats class="components.queue.Queue" sourceFile="Queue.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="components.queue.QueueKernel" sourceFile="QueueKernel.java" interface="true" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="components.waitingline" total_bugs="0" total_types="3" total_size="108">
+      <ClassStats class="components.waitingline.WaitingLine" sourceFile="WaitingLine.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="components.waitingline.WaitingLineKernel" sourceFile="WaitingLineKernel.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="components.waitingline.WaitingLineSecondary" sourceFile="WaitingLineSecondary.java" interface="false" size="98" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="212" invocations="358" avgMicrosecondsPerInvocation="592" maxMicrosecondsPerInvocation="29390" standardDeviationMircosecondsPerInvocation="1873"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="89" invocations="2" avgMicrosecondsPerInvocation="44509" maxMicrosecondsPerInvocation="76609" standardDeviationMircosecondsPerInvocation="32100"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="67" invocations="359" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="19946" standardDeviationMircosecondsPerInvocation="1047"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="22" avgMicrosecondsPerInvocation="906" maxMicrosecondsPerInvocation="6808" standardDeviationMircosecondsPerInvocation="1594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="77" avgMicrosecondsPerInvocation="242" maxMicrosecondsPerInvocation="920" standardDeviationMircosecondsPerInvocation="209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="14" invocations="326" avgMicrosecondsPerInvocation="45" maxMicrosecondsPerInvocation="653" standardDeviationMircosecondsPerInvocation="72"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="14" invocations="22" avgMicrosecondsPerInvocation="671" maxMicrosecondsPerInvocation="6556" standardDeviationMircosecondsPerInvocation="1354"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="14" invocations="12" avgMicrosecondsPerInvocation="1172" maxMicrosecondsPerInvocation="3352" standardDeviationMircosecondsPerInvocation="852"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="11" invocations="12" avgMicrosecondsPerInvocation="928" maxMicrosecondsPerInvocation="2701" standardDeviationMircosecondsPerInvocation="733"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1550450541352" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

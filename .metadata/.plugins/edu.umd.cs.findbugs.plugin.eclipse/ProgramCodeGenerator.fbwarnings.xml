@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="30" timestamp="1513035325366" analysisTimestamp="1513035324819" release="">
+  <Project projectName="ProgramCodeGenerator">
+    <Jar>C:\Users\yjean\Documents\workspace\ProgramCodeGenerator\bin\Program1GeneratedCode1.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\ProgramCodeGenerator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ProgramCodeGenerator\test</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ProgramCodeGenerator\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="4" last="5" removedByChange="true">
+    <Class classname="Program1GeneratedCode1">
+      <SourceLine classname="Program1GeneratedCode1" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Class>
+    <Method classname="Program1GeneratedCode1" name="generatedCode" signature="()Lcomponents/sequence/Sequence;" isStatic="false">
+      <SourceLine classname="Program1GeneratedCode1" start="248" end="251" startBytecode="0" endBytecode="12" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Method>
+    <LocalVariable name="body" register="3" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Program1GeneratedCode1" start="250" end="250" startBytecode="18" endBytecode="18" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <SourceLine classname="Program1GeneratedCode1" start="250" end="250" startBytecode="18" endBytecode="18" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="body"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="18" last="24" removedByChange="true">
+    <Class classname="Program1GeneratedCode1">
+      <SourceLine classname="Program1GeneratedCode1" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Class>
+    <Method classname="Program1GeneratedCode1" name="generatedCode" signature="()Lcomponents/sequence/Sequence;" isStatic="false">
+      <SourceLine classname="Program1GeneratedCode1" start="251" end="259" startBytecode="0" endBytecode="31" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Method>
+    <LocalVariable name="m" register="2" pc="42" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Program1GeneratedCode1" start="257" end="257" startBytecode="41" endBytecode="41" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <SourceLine classname="Program1GeneratedCode1" start="257" end="257" startBytecode="41" endBytecode="41" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="m"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="18" last="24" removedByChange="true">
+    <Class classname="Program1GeneratedCode1">
+      <SourceLine classname="Program1GeneratedCode1" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Class>
+    <Method classname="Program1GeneratedCode1" name="generatedCode" signature="()Lcomponents/sequence/Sequence;" isStatic="false">
+      <SourceLine classname="Program1GeneratedCode1" start="251" end="259" startBytecode="0" endBytecode="31" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Method>
+    <LocalVariable name="s" register="3" pc="48" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Program1GeneratedCode1" start="258" end="258" startBytecode="47" endBytecode="47" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <SourceLine classname="Program1GeneratedCode1" start="258" end="258" startBytecode="47" endBytecode="47" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="s"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="15" last="15" removedByChange="true">
+    <Class classname="Program1GeneratedCode1">
+      <SourceLine classname="Program1GeneratedCode1" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Class>
+    <Method classname="Program1GeneratedCode1" name="generatedCode" signature="()Lcomponents/sequence/Sequence;" isStatic="false">
+      <SourceLine classname="Program1GeneratedCode1" start="250" end="264" startBytecode="0" endBytecode="382" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    </Method>
+    <Method classname="components.program.Program$Instruction" name="byteCode" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="components.program.Program$Instruction" start="129" end="129" startBytecode="0" endBytecode="28" sourcefile="SourceFile" sourcepath="components/program/SourceFile"/>
+    </Method>
+    <SourceLine classname="Program1GeneratedCode1" start="263" end="263" startBytecode="112" endBytecode="112" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+    <SourceLine classname="Program1GeneratedCode1" start="263" end="263" startBytecode="112" endBytecode="112" sourcefile="Program1GeneratedCode1.java" sourcepath="Program1GeneratedCode1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 11 Dec 2017 18:35:24 -0500" total_classes="1" referenced_classes="37" total_bugs="0" total_size="150" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="1.81" clock_seconds="0.55" peak_mbytes="576.18" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="150">
+      <ClassStats class="Program1GeneratedCode1" sourceFile="Program1GeneratedCode1.java" interface="false" size="150" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="111" invocations="368" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="21866" standardDeviationMircosecondsPerInvocation="1215"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="75" invocations="2" avgMicrosecondsPerInvocation="37823" maxMicrosecondsPerInvocation="66605" standardDeviationMircosecondsPerInvocation="28782"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="35" invocations="371" avgMicrosecondsPerInvocation="94" maxMicrosecondsPerInvocation="1745" standardDeviationMircosecondsPerInvocation="101"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="33" invocations="1" avgMicrosecondsPerInvocation="33018" maxMicrosecondsPerInvocation="33018" standardDeviationMircosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="32" invocations="37" avgMicrosecondsPerInvocation="874" maxMicrosecondsPerInvocation="25932" standardDeviationMircosecondsPerInvocation="4203"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="30" invocations="37" avgMicrosecondsPerInvocation="836" maxMicrosecondsPerInvocation="12716" standardDeviationMircosecondsPerInvocation="2230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="22" invocations="37" avgMicrosecondsPerInvocation="614" maxMicrosecondsPerInvocation="6000" standardDeviationMircosecondsPerInvocation="1142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="20" invocations="83" avgMicrosecondsPerInvocation="251" maxMicrosecondsPerInvocation="1193" standardDeviationMircosecondsPerInvocation="260"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="13" invocations="10" avgMicrosecondsPerInvocation="1338" maxMicrosecondsPerInvocation="8733" standardDeviationMircosecondsPerInvocation="2491"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1510191015834" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1510191015836" release="" codeSize="136" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1510191193254" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1510191264191" release="" codeSize="136" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1510191384124" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1510191398922" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1510191656418" release="" codeSize="136" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1510191667346" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1510191683740" release="" codeSize="142" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1510191695334" release="" codeSize="142" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1510198874985" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1510199067007" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1510199134674" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1510199429911" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1510199514140" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1510250754544" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1510250802254" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1512860463734" release="" codeSize="149" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1512860504009" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1512860968136" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1512861105109" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1512861575407" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1512861589913" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1512863138305" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1512866877119" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1512867009955" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1512867018705" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1512867210882" release="" codeSize="149" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1512867295103" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1513035301218" release="" codeSize="150" numClasses="1"/>
+  </History>
+</BugCollection>

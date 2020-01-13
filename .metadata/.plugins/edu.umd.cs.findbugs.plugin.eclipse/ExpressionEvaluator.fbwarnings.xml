@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="5" timestamp="1512852432566" analysisTimestamp="1512852432153" release="">
+  <Project projectName="ExpressionEvaluator">
+    <Jar>C:\Users\yjean\Documents\workspace\ExpressionEvaluator\bin\ExpressionEvaluator.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\ExpressionEvaluator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ExpressionEvaluator\test</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ExpressionEvaluator\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 9 Dec 2017 15:47:12 -0500" total_classes="1" referenced_classes="16" total_bugs="0" total_size="70" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="1.08" clock_seconds="0.41" peak_mbytes="579.96" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="70">
+      <ClassStats class="ExpressionEvaluator" sourceFile="ExpressionEvaluator.java" interface="false" size="70" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="100" invocations="2" avgMicrosecondsPerInvocation="50177" maxMicrosecondsPerInvocation="90951" standardDeviationMircosecondsPerInvocation="40773"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="97" invocations="323" avgMicrosecondsPerInvocation="300" maxMicrosecondsPerInvocation="5174" standardDeviationMircosecondsPerInvocation="591"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="33" invocations="323" avgMicrosecondsPerInvocation="103" maxMicrosecondsPerInvocation="311" standardDeviationMircosecondsPerInvocation="48"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="29" invocations="8" avgMicrosecondsPerInvocation="3630" maxMicrosecondsPerInvocation="25575" standardDeviationMircosecondsPerInvocation="8299"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="16" invocations="16" avgMicrosecondsPerInvocation="1025" maxMicrosecondsPerInvocation="5863" standardDeviationMircosecondsPerInvocation="1528"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="12" invocations="73" avgMicrosecondsPerInvocation="168" maxMicrosecondsPerInvocation="817" standardDeviationMircosecondsPerInvocation="154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="12" invocations="16" avgMicrosecondsPerInvocation="754" maxMicrosecondsPerInvocation="5251" standardDeviationMircosecondsPerInvocation="1228"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1512848898257" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1512848898257" release="" codeSize="70" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1512849655506" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1512849694682" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1512849967774" release="" codeSize="70" numClasses="1"/>
+  </History>
+</BugCollection>

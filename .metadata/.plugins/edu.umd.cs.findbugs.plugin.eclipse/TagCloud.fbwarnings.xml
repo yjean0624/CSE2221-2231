@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="133" timestamp="1513039921504" analysisTimestamp="1513039920536" release="">
+  <Project projectName="TagCloud">
+    <Jar>C:\Users\yjean\Documents\workspace\TagCloud\bin\TagCloud$IntegerLT.class</Jar>
+    <Jar>C:\Users\yjean\Documents\workspace\TagCloud\bin\TagCloud$StringLT.class</Jar>
+    <Jar>C:\Users\yjean\Documents\workspace\TagCloud\bin\TagCloud.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\TagCloud\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\TagCloud\test</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\TagCloud\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="5" last="14" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="290" end="304" startBytecode="0" endBytecode="45" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <LocalVariable name="input" register="4" pc="42" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloud" start="294" end="294" startBytecode="40" endBytecode="40" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="294" end="294" startBytecode="40" endBytecode="40" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="input"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="4" last="4" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="155" end="159" startBytecode="0" endBytecode="14" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <LocalVariable name="name" register="3" pc="31" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloud" start="158" end="158" startBytecode="30" endBytecode="30" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="158" end="158" startBytecode="30" endBytecode="30" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="name"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="5" last="14" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="290" end="304" startBytecode="0" endBytecode="45" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <LocalVariable name="words" register="8" pc="94" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloud" start="300" end="300" startBytecode="92" endBytecode="92" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="300" end="300" startBytecode="92" endBytecode="92" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="words"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="16" last="16" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="maxAndMin" signature="(Lcomponents/sortingmachine/SortingMachine;II)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="211" end="227" startBytecode="0" endBytecode="54" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <LocalVariable name="maxInt" register="8" pc="47" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloud" start="216" end="216" startBytecode="45" endBytecode="45" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="216" end="216" startBytecode="45" endBytecode="45" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="maxInt"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="16" last="16" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="maxAndMin" signature="(Lcomponents/sortingmachine/SortingMachine;II)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="211" end="227" startBytecode="0" endBytecode="54" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <LocalVariable name="minInt" register="10" pc="128" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloud" start="224" end="224" startBytecode="126" endBytecode="126" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="224" end="224" startBytecode="126" endBytecode="126" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minInt"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="86" last="88" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="content" signature="(ILcomponents/map/Map;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="281" end="311" startBytecode="0" endBytecode="753" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="301" end="301" startBytecode="177" endBytecode="177" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="301" end="301" startBytecode="177" endBytecode="177" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="104" last="104" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="content" signature="(ILcomponents/sortingmachine/SortingMachine;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="282" end="311" startBytecode="0" endBytecode="710" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="301" end="301" startBytecode="164" endBytecode="164" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="301" end="301" startBytecode="164" endBytecode="164" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="17" last="53" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="fontSize" signature="(Lcomponents/sortingmachine/SortingMachine;Lcomponents/map/Map$Pair;)I" isStatic="true">
+      <SourceLine classname="TagCloud" start="209" end="221" startBytecode="0" endBytecode="379" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="219" end="219" startBytecode="92" endBytecode="92" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="219" end="219" startBytecode="92" endBytecode="92" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="54" last="65" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="fontSize" signature="(Lcomponents/sortingmachine/SortingMachine;Lcomponents/map/Map$Pair;I)I" isStatic="true">
+      <SourceLine classname="TagCloud" start="209" end="221" startBytecode="0" endBytecode="414" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="218" end="218" startBytecode="91" endBytecode="91" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="218" end="218" startBytecode="91" endBytecode="91" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="67" last="85" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="slope" signature="(IIII)D" isStatic="true">
+      <SourceLine classname="TagCloud" start="223" end="224" startBytecode="0" endBytecode="98" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="223" end="223" startBytecode="7" endBytecode="7" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="223" end="223" startBytecode="7" endBytecode="7" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_INT_CAST_TO_FLOAT_PASSED_TO_ROUND" priority="2" rank="9" abbrev="ICAST" category="CORRECTNESS" first="100" last="102" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="content" signature="(ILcomponents/sortingmachine/SortingMachine;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="TagCloud" start="282" end="311" startBytecode="0" endBytecode="714" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="301" end="301" startBytecode="165" endBytecode="165" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="301" end="301" startBytecode="165" endBytecode="165" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="7">
+    <Class classname="TagCloud$IntegerLT">
+      <SourceLine classname="TagCloud$IntegerLT" start="1" end="177" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="7">
+    <Class classname="TagCloud$StringLT">
+      <SourceLine classname="TagCloud$StringLT" start="1" end="189" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 11 Dec 2017 19:52:00 -0500" total_classes="3" referenced_classes="44" total_bugs="2" total_size="176" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="3.34" clock_seconds="0.97" peak_mbytes="590.96" alloc_mbytes="1024.00" gc_seconds="0.05" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="3" total_size="176" priority_2="2">
+      <ClassStats class="TagCloud" sourceFile="TagCloud.java" interface="false" size="160" bugs="0"/>
+      <ClassStats class="TagCloud$IntegerLT" sourceFile="TagCloud.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="TagCloud$StringLT" sourceFile="TagCloud.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="177" invocations="457" avgMicrosecondsPerInvocation="388" maxMicrosecondsPerInvocation="28459" standardDeviationMircosecondsPerInvocation="1922"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="121" invocations="2" avgMicrosecondsPerInvocation="60696" maxMicrosecondsPerInvocation="110998" standardDeviationMircosecondsPerInvocation="50302"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="92" invocations="458" avgMicrosecondsPerInvocation="202" maxMicrosecondsPerInvocation="21271" standardDeviationMircosecondsPerInvocation="1350"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="58" invocations="44" avgMicrosecondsPerInvocation="1318" maxMicrosecondsPerInvocation="20929" standardDeviationMircosecondsPerInvocation="3347"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="33" invocations="20" avgMicrosecondsPerInvocation="1695" maxMicrosecondsPerInvocation="21339" standardDeviationMircosecondsPerInvocation="4580"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="31" invocations="124" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="1460" standardDeviationMircosecondsPerInvocation="253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="28" invocations="44" avgMicrosecondsPerInvocation="643" maxMicrosecondsPerInvocation="6872" standardDeviationMircosecondsPerInvocation="1230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="16" invocations="20" avgMicrosecondsPerInvocation="847" maxMicrosecondsPerInvocation="5219" standardDeviationMircosecondsPerInvocation="1305"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="14" invocations="23" avgMicrosecondsPerInvocation="624" maxMicrosecondsPerInvocation="2579" standardDeviationMircosecondsPerInvocation="702"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="12" invocations="421" avgMicrosecondsPerInvocation="29" maxMicrosecondsPerInvocation="402" standardDeviationMircosecondsPerInvocation="43"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1511635948383" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1511635948388" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1511645363268" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1511645420586" release="" codeSize="66" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1511645508362" release="" codeSize="70" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1511647333732" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1511648212974" release="" codeSize="89" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1511649747278" release="" codeSize="115" numClasses="3"/>
+    <AppVersion sequence="8" timestamp="1511650158972" release="" codeSize="115" numClasses="3"/>
+    <AppVersion sequence="9" timestamp="1511650174579" release="" codeSize="115" numClasses="3"/>
+    <AppVersion sequence="10" timestamp="1511650320778" release="" codeSize="115" numClasses="3"/>
+    <AppVersion sequence="11" timestamp="1511650613182" release="" codeSize="115" numClasses="3"/>
+    <AppVersion sequence="12" timestamp="1511653448981" release="" codeSize="142" numClasses="3"/>
+    <AppVersion sequence="13" timestamp="1511654343335" release="" codeSize="146" numClasses="3"/>
+    <AppVersion sequence="14" timestamp="1511659318871" release="" codeSize="146" numClasses="3"/>
+    <AppVersion sequence="15" timestamp="1511660940581" release="" codeSize="137" numClasses="3"/>
+    <AppVersion sequence="16" timestamp="1511661093006" release="" codeSize="154" numClasses="3"/>
+    <AppVersion sequence="17" timestamp="1511661624877" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="18" timestamp="1511661651512" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="19" timestamp="1511661664613" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="20" timestamp="1511661779305" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="21" timestamp="1511661804559" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="22" timestamp="1511661823866" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="23" timestamp="1511661844843" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="24" timestamp="1511661856514" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="25" timestamp="1511661868565" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="26" timestamp="1511662102091" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="27" timestamp="1511662122596" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="28" timestamp="1511662136810" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="29" timestamp="1511662749483" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="30" timestamp="1511662766998" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="31" timestamp="1511663295006" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="32" timestamp="1511663338745" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="33" timestamp="1511663475282" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="34" timestamp="1511663548110" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="35" timestamp="1511664201361" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="36" timestamp="1511664244298" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="37" timestamp="1511664308188" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="38" timestamp="1511664548461" release="" codeSize="146" numClasses="3"/>
+    <AppVersion sequence="39" timestamp="1511664553689" release="" codeSize="161" numClasses="3"/>
+    <AppVersion sequence="40" timestamp="1511666460665" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="41" timestamp="1511666639676" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="42" timestamp="1511667088275" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="43" timestamp="1511667127617" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="44" timestamp="1511667202136" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="45" timestamp="1511667401623" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="46" timestamp="1511667407432" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="47" timestamp="1511667500438" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="48" timestamp="1511667692045" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="49" timestamp="1511667784687" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="50" timestamp="1511668193011" release="" codeSize="159" numClasses="3"/>
+    <AppVersion sequence="51" timestamp="1511668207001" release="" codeSize="159" numClasses="3"/>
+    <AppVersion sequence="52" timestamp="1511668221813" release="" codeSize="159" numClasses="3"/>
+    <AppVersion sequence="53" timestamp="1511668566929" release="" codeSize="157" numClasses="3"/>
+    <AppVersion sequence="54" timestamp="1511668701133" release="" codeSize="148" numClasses="3"/>
+    <AppVersion sequence="55" timestamp="1511668718558" release="" codeSize="157" numClasses="3"/>
+    <AppVersion sequence="56" timestamp="1511672479832" release="" codeSize="141" numClasses="3"/>
+    <AppVersion sequence="57" timestamp="1511672591105" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="58" timestamp="1511672644352" release="" codeSize="157" numClasses="3"/>
+    <AppVersion sequence="59" timestamp="1511672792508" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="60" timestamp="1511672817493" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="61" timestamp="1511672888883" release="" codeSize="157" numClasses="3"/>
+    <AppVersion sequence="62" timestamp="1511673154422" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="63" timestamp="1511673168707" release="" codeSize="155" numClasses="3"/>
+    <AppVersion sequence="64" timestamp="1511673402136" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="65" timestamp="1511673645852" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="66" timestamp="1511673890381" release="" codeSize="147" numClasses="3"/>
+    <AppVersion sequence="67" timestamp="1511674377266" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="68" timestamp="1511674541772" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="69" timestamp="1511674636805" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="70" timestamp="1511674736195" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="71" timestamp="1511674827820" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="72" timestamp="1511674842456" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="73" timestamp="1511674852919" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="74" timestamp="1511674861204" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="75" timestamp="1511675192735" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="76" timestamp="1511675907964" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="77" timestamp="1511675969349" release="" codeSize="170" numClasses="3"/>
+    <AppVersion sequence="78" timestamp="1511676050866" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="79" timestamp="1511676372657" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="80" timestamp="1511676391165" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="81" timestamp="1511676885095" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="82" timestamp="1511677192947" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="83" timestamp="1511677280546" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="84" timestamp="1511677347680" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="85" timestamp="1511677421132" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="86" timestamp="1511678017846" release="" codeSize="166" numClasses="3"/>
+    <AppVersion sequence="87" timestamp="1511678263134" release="" codeSize="166" numClasses="3"/>
+    <AppVersion sequence="88" timestamp="1511747520837" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="89" timestamp="1511756561184" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="90" timestamp="1511756573935" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="91" timestamp="1511757390551" release="" codeSize="174" numClasses="3"/>
+    <AppVersion sequence="92" timestamp="1511757488913" release="" codeSize="174" numClasses="3"/>
+    <AppVersion sequence="93" timestamp="1511757520599" release="" codeSize="174" numClasses="3"/>
+    <AppVersion sequence="94" timestamp="1511757707772" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="95" timestamp="1511757716122" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="96" timestamp="1511757757233" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="97" timestamp="1511757831593" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="98" timestamp="1511757871673" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="99" timestamp="1511758140664" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="100" timestamp="1511758242101" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="101" timestamp="1511758294469" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="102" timestamp="1511758405345" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="103" timestamp="1511758724411" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="104" timestamp="1511758742707" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="105" timestamp="1511758796436" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="106" timestamp="1511758837526" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="107" timestamp="1511758918505" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="108" timestamp="1511758925389" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="109" timestamp="1511758960717" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="110" timestamp="1511759004383" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="111" timestamp="1511759129495" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="112" timestamp="1511759146893" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="113" timestamp="1511759230293" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="114" timestamp="1511759248622" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="115" timestamp="1511759329999" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="116" timestamp="1511904718884" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="117" timestamp="1511905366157" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="118" timestamp="1511905395236" release="" codeSize="171" numClasses="3"/>
+    <AppVersion sequence="119" timestamp="1511905801115" release="" codeSize="171" numClasses="3"/>
+    <AppVersion sequence="120" timestamp="1511907229136" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="121" timestamp="1511907281211" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="122" timestamp="1511907505669" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="123" timestamp="1511907528231" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="124" timestamp="1511907545069" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="125" timestamp="1511907572855" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="126" timestamp="1511910979195" release="" codeSize="171" numClasses="3"/>
+    <AppVersion sequence="127" timestamp="1511932663052" release="" codeSize="174" numClasses="3"/>
+    <AppVersion sequence="128" timestamp="1511932679152" release="" codeSize="175" numClasses="3"/>
+    <AppVersion sequence="129" timestamp="1511932715742" release="" codeSize="175" numClasses="3"/>
+    <AppVersion sequence="130" timestamp="1511932720343" release="" codeSize="175" numClasses="3"/>
+    <AppVersion sequence="131" timestamp="1511933123012" release="" codeSize="176" numClasses="3"/>
+    <AppVersion sequence="132" timestamp="1512349478037" release="" codeSize="176" numClasses="3"/>
+  </History>
+</BugCollection>

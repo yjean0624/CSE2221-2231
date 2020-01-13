@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\yjean\Desktop\Dining-Philosophers-master\Dining-Philosophers-master"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\yjean\Documents\workspace"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\yjean\Desktop\DiningPhilosopher.zip"/>
+			<item value="C:\Users\yjean\Desktop\EmailAccounts.zip"/>
+			<item value="C:\Users\yjean\Desktop\JavaIOExplorations.zip"/>
+			<item value="C:\Users\yjean\Desktop\JCFExplorations.zip"/>
+			<item value="C:\Users\yjean\Desktop\BugsWorldVMInterpreter.zip"/>
+			<item value="C:\Users\yjean\Desktop\ling slides\ExpressionEvaluator.zip"/>
+			<item value="C:\Users\yjean\Downloads\QueueOnSequence.zip"/>
+			<item value="C:\Users\yjean\Downloads\zhao.2014-13.zip"/>
+			<item value="C:\Users\yjean\Downloads\WaitingLineFamilyDesign.zip"/>
+			<item value="C:\Users\yjean\Downloads\BLParser.zip"/>
+			<item value="C:\Users\yjean\Downloads\ProgramPrettyPrint (1).zip"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.ui.wizards.new.project" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="559" key="DIALOG_HEIGHT"/>
+		<item value="170" key="DIALOG_X_ORIGIN"/>
+		<item value="6" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

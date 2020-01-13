@@ -1,0 +1,31 @@
+PROGRAM Test IS
+
+  INSTRUCTION one IS
+     WHILE next-is-enemy DO
+     infect
+     END WHILE
+  END one
+  
+  INSTRUCTION two IS
+    turnleft
+    turnleft
+  END two
+  
+  INSTRUCTION three IS
+    IF next-is-enemy THEN
+      turnright
+      move
+    END IF
+  END three
+
+BEGIN
+  WHILE true DO
+    two
+    IF next-is-wall THEN
+    move
+    ELSE
+    one
+    END IF
+  END WHILE
+  three
+END Test

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="13" timestamp="1509942307754" analysisTimestamp="1509942307425" release="">
+  <Project projectName="ProgramPrettyPrint">
+    <Jar>C:\Users\yjean\Documents\workspace\ProgramPrettyPrint\bin\Program1PrettyPrint1.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\ProgramPrettyPrint\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ProgramPrettyPrint\test</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ProgramPrettyPrint\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 5 Nov 2017 23:25:07 -0500" total_classes="1" referenced_classes="37" total_bugs="0" total_size="77" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="0.75" clock_seconds="0.33" peak_mbytes="594.06" alloc_mbytes="1024.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="77">
+      <ClassStats class="Program1PrettyPrint1" sourceFile="Program1PrettyPrint1.java" interface="false" size="77" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="106" invocations="364" avgMicrosecondsPerInvocation="293" maxMicrosecondsPerInvocation="34019" standardDeviationMircosecondsPerInvocation="1813"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="60" invocations="2" avgMicrosecondsPerInvocation="30021" maxMicrosecondsPerInvocation="52005" standardDeviationMircosecondsPerInvocation="21984"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="32" invocations="368" avgMicrosecondsPerInvocation="88" maxMicrosecondsPerInvocation="260" standardDeviationMircosecondsPerInvocation="45"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="14" invocations="37" avgMicrosecondsPerInvocation="395" maxMicrosecondsPerInvocation="3065" standardDeviationMircosecondsPerInvocation="676"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="11" invocations="37" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="2735" standardDeviationMircosecondsPerInvocation="502"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="11" invocations="79" avgMicrosecondsPerInvocation="145" maxMicrosecondsPerInvocation="608" standardDeviationMircosecondsPerInvocation="137"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1509941634678" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1509941634678" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1509941683559" release="" codeSize="79" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1509941718980" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1509941830243" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1509941861547" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1509941906990" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1509941928250" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1509941950339" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1509942166965" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1509942203230" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1509942229250" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1509942267433" release="" codeSize="77" numClasses="1"/>
+  </History>
+</BugCollection>

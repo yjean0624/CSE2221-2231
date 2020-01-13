@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="5" timestamp="1510098382339" analysisTimestamp="1510098381641" release="">
+  <Project projectName="SortingMachineWithHeapsort">
+    <Jar>C:\Users\yjean\Documents\workspace\SortingMachineWithHeapsort\bin\SortingMachine5a$SortingMachine5aIterator.class</Jar>
+    <Jar>C:\Users\yjean\Documents\workspace\SortingMachineWithHeapsort\bin\SortingMachine5a.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\SortingMachineWithHeapsort\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\SortingMachineWithHeapsort\src</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\SortingMachineWithHeapsort\test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a">
+      <SourceLine classname="SortingMachine5a" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a" name="entries" signature="Lcomponents/queue/Queue;" isStatic="false">
+      <SourceLine classname="SortingMachine5a" start="84" end="84" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a">
+      <SourceLine classname="SortingMachine5a" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a" name="heap" signature="Lcomponents/array/Array;" isStatic="false">
+      <SourceLine classname="SortingMachine5a" start="89" end="89" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a">
+      <SourceLine classname="SortingMachine5a" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a" name="heapSize" signature="I" isStatic="false">
+      <SourceLine classname="SortingMachine5a" start="94" end="94" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="1" removedByChange="true">
+    <Class classname="SortingMachine5a">
+      <SourceLine classname="SortingMachine5a" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a" name="index" signature="I" isStatic="false">
+      <SourceLine classname="SortingMachine5a" start="260" end="260" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a">
+      <SourceLine classname="SortingMachine5a" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a" name="insertionMode" signature="Z" isStatic="false">
+      <SourceLine classname="SortingMachine5a" start="79" end="79" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a">
+      <SourceLine classname="SortingMachine5a" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a" name="machineOrder" signature="Ljava/util/Comparator;" isStatic="false">
+      <SourceLine classname="SortingMachine5a" start="74" end="74" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a$SortingMachine5aIterator">
+      <SourceLine classname="SortingMachine5a$SortingMachine5aIterator" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a$SortingMachine5aIterator" name="iterator" signature="Ljava/util/Iterator;" isStatic="false">
+      <SourceLine classname="SortingMachine5a$SortingMachine5aIterator" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+    <SourceLine classname="SortingMachine5a$SortingMachine5aIterator" start="509" end="509" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5aIterator.java" sourcepath="SortingMachine5aIterator.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="2" removedByChange="true">
+    <Class classname="SortingMachine5a$SortingMachine5aIterator">
+      <SourceLine classname="SortingMachine5a$SortingMachine5aIterator" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Class>
+    <Field classname="SortingMachine5a$SortingMachine5aIterator" name="notSeenCount" signature="I" isStatic="false">
+      <SourceLine classname="SortingMachine5a$SortingMachine5aIterator" sourcefile="SortingMachine5a.java" sourcepath="SortingMachine5a.java"/>
+    </Field>
+    <SourceLine classname="SortingMachine5a$SortingMachine5aIterator" start="509" end="509" startBytecode="0" endBytecode="0" sourcefile="SortingMachine5aIterator.java" sourcepath="SortingMachine5aIterator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 7 Nov 2017 18:46:21 -0500" total_classes="2" referenced_classes="32" total_bugs="0" total_size="213" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="2.19" clock_seconds="0.70" peak_mbytes="520.11" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="213">
+      <ClassStats class="SortingMachine5a" sourceFile="SortingMachine5a.java" interface="false" size="178" bugs="0"/>
+      <ClassStats class="SortingMachine5a$SortingMachine5aIterator" sourceFile="SortingMachine5a.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="126" invocations="391" avgMicrosecondsPerInvocation="323" maxMicrosecondsPerInvocation="4479" standardDeviationMircosecondsPerInvocation="592"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="104" invocations="2" avgMicrosecondsPerInvocation="52096" maxMicrosecondsPerInvocation="71042" standardDeviationMircosecondsPerInvocation="18946"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="49" invocations="393" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="376" standardDeviationMircosecondsPerInvocation="53"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="28" invocations="49" avgMicrosecondsPerInvocation="588" maxMicrosecondsPerInvocation="3354" standardDeviationMircosecondsPerInvocation="760"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="28" invocations="27" avgMicrosecondsPerInvocation="1065" maxMicrosecondsPerInvocation="17059" standardDeviationMircosecondsPerInvocation="3181"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="26" invocations="49" avgMicrosecondsPerInvocation="535" maxMicrosecondsPerInvocation="2527" standardDeviationMircosecondsPerInvocation="577"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="25" invocations="32" avgMicrosecondsPerInvocation="785" maxMicrosecondsPerInvocation="8011" standardDeviationMircosecondsPerInvocation="1539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="21" invocations="31" avgMicrosecondsPerInvocation="701" maxMicrosecondsPerInvocation="4335" standardDeviationMircosecondsPerInvocation="919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="111" avgMicrosecondsPerInvocation="168" maxMicrosecondsPerInvocation="781" standardDeviationMircosecondsPerInvocation="159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="16" invocations="32" avgMicrosecondsPerInvocation="528" maxMicrosecondsPerInvocation="5825" standardDeviationMircosecondsPerInvocation="1025"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="16" invocations="358" avgMicrosecondsPerInvocation="46" maxMicrosecondsPerInvocation="1797" standardDeviationMircosecondsPerInvocation="108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="16" invocations="29" avgMicrosecondsPerInvocation="573" maxMicrosecondsPerInvocation="2863" standardDeviationMircosecondsPerInvocation="606"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="15" invocations="30" avgMicrosecondsPerInvocation="530" maxMicrosecondsPerInvocation="3190" standardDeviationMircosecondsPerInvocation="705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="14" invocations="31" avgMicrosecondsPerInvocation="463" maxMicrosecondsPerInvocation="1347" standardDeviationMircosecondsPerInvocation="314"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1510098253829" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1510098253845" release="" codeSize="51" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1510098278366" release="" codeSize="52" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1510098330630" release="" codeSize="204" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1510098350311" release="" codeSize="204" numClasses="2"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,6 @@
+IF next-is-not-enemy THEN
+  go-for-it
+  turnright
+  look-for-something
+  skip
+END IF

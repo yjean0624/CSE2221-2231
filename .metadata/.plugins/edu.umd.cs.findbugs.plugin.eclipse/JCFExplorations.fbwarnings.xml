@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="20" timestamp="1513104694310" analysisTimestamp="1513104693906" release="">
+  <Project projectName="JCFExplorations">
+    <Jar>C:\Users\yjean\Documents\workspace\JCFExplorations\bin\JCFExplorations.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\JCFExplorations\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\JCFExplorations\test</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\JCFExplorations\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="14" removedByChange="true">
+    <Class classname="JCFExplorations">
+      <SourceLine classname="JCFExplorations" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Class>
+    <Method classname="JCFExplorations" name="incrementAll" signature="(Ljava/util/Set;)V" isStatic="true">
+      <SourceLine classname="JCFExplorations" start="137" end="148" startBytecode="0" endBytecode="41" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Method>
+    <LocalVariable name="fake" register="2" pc="35" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="JCFExplorations" start="139" end="139" startBytecode="34" endBytecode="34" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    <SourceLine classname="JCFExplorations" start="139" end="139" startBytecode="34" endBytecode="34" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fake"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="18" last="18" removedByChange="true">
+    <Class classname="JCFExplorations">
+      <SourceLine classname="JCFExplorations" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Class>
+    <Method classname="JCFExplorations" name="incrementAll" signature="(Ljava/util/Set;)V" isStatic="true">
+      <SourceLine classname="JCFExplorations" start="137" end="152" startBytecode="0" endBytecode="51" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Method>
+    <LocalVariable name="two" register="1" pc="28" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="JCFExplorations" start="138" end="138" startBytecode="27" endBytecode="27" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    <SourceLine classname="JCFExplorations" start="138" end="138" startBytecode="27" endBytecode="27" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="two"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="14" last="14" removedByChange="true">
+    <Class classname="JCFExplorations">
+      <SourceLine classname="JCFExplorations" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Class>
+    <Method classname="JCFExplorations" name="incrementAll" signature="(Ljava/util/Set;)V" isStatic="true">
+      <SourceLine classname="JCFExplorations" start="137" end="148" startBytecode="0" endBytecode="41" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Method>
+    <LocalVariable name="iter" register="1" pc="27" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="JCFExplorations" start="138" end="138" startBytecode="26" endBytecode="26" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    <SourceLine classname="JCFExplorations" start="138" end="138" startBytecode="26" endBytecode="26" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="iter"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="5" last="5" removedByChange="true">
+    <Class classname="JCFExplorations">
+      <SourceLine classname="JCFExplorations" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Class>
+    <Method classname="JCFExplorations" name="incrementAll" signature="(Ljava/util/Set;)V" isStatic="true">
+      <SourceLine classname="JCFExplorations" start="137" end="144" startBytecode="0" endBytecode="232" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+    </Method>
+    <String value="fake"/>
+    <Type descriptor="Ljava/util/HashSet;">
+      <SourceLine classname="java.util.HashSet"/>
+    </Type>
+    <SourceLine classname="JCFExplorations" start="138" end="138" startBytecode="24" endBytecode="24" sourcefile="JCFExplorations.java" sourcepath="JCFExplorations.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 12 Dec 2017 13:51:33 -0500" total_classes="1" referenced_classes="20" total_bugs="0" total_size="53" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="0.75" clock_seconds="0.40" peak_mbytes="609.45" alloc_mbytes="1024.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="53">
+      <ClassStats class="JCFExplorations" sourceFile="JCFExplorations.java" interface="false" size="53" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="81" invocations="333" avgMicrosecondsPerInvocation="244" maxMicrosecondsPerInvocation="4131" standardDeviationMircosecondsPerInvocation="457"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="74" invocations="2" avgMicrosecondsPerInvocation="37464" maxMicrosecondsPerInvocation="65749" standardDeviationMircosecondsPerInvocation="28285"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="61" invocations="334" avgMicrosecondsPerInvocation="184" maxMicrosecondsPerInvocation="1107" standardDeviationMircosecondsPerInvocation="176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="37" invocations="20" avgMicrosecondsPerInvocation="1891" maxMicrosecondsPerInvocation="35568" standardDeviationMircosecondsPerInvocation="7727"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="18" invocations="6" avgMicrosecondsPerInvocation="3134" maxMicrosecondsPerInvocation="10420" standardDeviationMircosecondsPerInvocation="3799"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="15" invocations="20" avgMicrosecondsPerInvocation="750" maxMicrosecondsPerInvocation="5217" standardDeviationMircosecondsPerInvocation="1475"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1512853667919" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1512853667919" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1512853814810" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1512854028267" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1512854381585" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1512854436041" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1512854512120" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1512854969512" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1512854986268" release="" codeSize="104" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1512855308720" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1512855440291" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1512855555737" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1512856406085" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1512864031342" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1512864268904" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1512864286690" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1512864364472" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1512866755989" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1513042891011" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1513042915040" release="" codeSize="53" numClasses="1"/>
+  </History>
+</BugCollection>

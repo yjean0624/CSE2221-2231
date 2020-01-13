@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="6" timestamp="1510164092470" analysisTimestamp="1510164091783" release="">
+  <Project projectName="ListWithTwoSmartNodes">
+    <Jar>C:\Users\yjean\Documents\workspace\ListWithTwoSmartNodes\bin\List2$List2Iterator.class</Jar>
+    <Jar>C:\Users\yjean\Documents\workspace\ListWithTwoSmartNodes\bin\List2$Node.class</Jar>
+    <Jar>C:\Users\yjean\Documents\workspace\ListWithTwoSmartNodes\bin\List2.class</Jar>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\workspace\ListWithTwoSmartNodes\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yjean\Documents\JDK\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ListWithTwoSmartNodes\test</SrcDir>
+    <SrcDir>C:\Users\yjean\Documents\workspace\ListWithTwoSmartNodes\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 8 Nov 2017 13:01:31 -0500" total_classes="3" referenced_classes="25" total_bugs="0" total_size="124" num_packages="1" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="2.12" clock_seconds="0.69" peak_mbytes="507.41" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="124">
+      <ClassStats class="List2" sourceFile="List2.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="List2$List2Iterator" sourceFile="List2.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="List2$Node" sourceFile="List2.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="164" invocations="352" avgMicrosecondsPerInvocation="466" maxMicrosecondsPerInvocation="28051" standardDeviationMircosecondsPerInvocation="1967"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="127" invocations="2" avgMicrosecondsPerInvocation="63803" maxMicrosecondsPerInvocation="88298" standardDeviationMircosecondsPerInvocation="24495"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="47" invocations="354" avgMicrosecondsPerInvocation="135" maxMicrosecondsPerInvocation="4845" standardDeviationMircosecondsPerInvocation="256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CrossSiteScripting" totalMilliseconds="39" invocations="3" avgMicrosecondsPerInvocation="13116" maxMicrosecondsPerInvocation="38557" standardDeviationMircosecondsPerInvocation="17990"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation" totalMilliseconds="27" invocations="3" avgMicrosecondsPerInvocation="9006" maxMicrosecondsPerInvocation="26818" standardDeviationMircosecondsPerInvocation="12595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="25" avgMicrosecondsPerInvocation="951" maxMicrosecondsPerInvocation="11071" standardDeviationMircosecondsPerInvocation="2268"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="21" invocations="29" avgMicrosecondsPerInvocation="749" maxMicrosecondsPerInvocation="7649" standardDeviationMircosecondsPerInvocation="1636"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="18" invocations="25" avgMicrosecondsPerInvocation="726" maxMicrosecondsPerInvocation="9380" standardDeviationMircosecondsPerInvocation="1819"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="17" invocations="94" avgMicrosecondsPerInvocation="181" maxMicrosecondsPerInvocation="934" standardDeviationMircosecondsPerInvocation="200"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="14" invocations="319" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="598" standardDeviationMircosecondsPerInvocation="66"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="11" invocations="35" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="1679" standardDeviationMircosecondsPerInvocation="325"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1509953201897" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1509953201897" release="" codeSize="123" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1509953209572" release="" codeSize="124" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1510160634261" release="" codeSize="124" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1510161936567" release="" codeSize="124" numClasses="3"/>
+    <AppVersion sequence="5" timestamp="1510161943203" release="" codeSize="124" numClasses="3"/>
+  </History>
+</BugCollection>
